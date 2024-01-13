@@ -16,7 +16,6 @@
 #pragma comment(lib, "Ole32.lib")
 #pragma comment(lib, "Shell32.lib")
 
-#define GAME_DIR "/home/"
 #include "fonts.hpp"
 #include "texture.hpp"
 #include "text.hpp"
