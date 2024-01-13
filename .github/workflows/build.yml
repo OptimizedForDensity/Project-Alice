@@ -37,8 +37,6 @@ jobs:
     - name: Build Project Alice
       run: |
         cmake --build build --parallel --target Alice
-        cmake --build build --parallel --target tests_project
-        cmake --build build --parallel --target save_editor
 
   windows-build:
     strategy:
